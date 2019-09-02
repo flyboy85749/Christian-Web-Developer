@@ -33,10 +33,28 @@
 
 }
 
+.card-title {
+    padding-left: 20px;
+}
+
 .card-body {
     padding: 0px;
 }
 
+.services {
+    background: #B1A8FF;
+    padding: 20px;
+}
+
+.photo {
+    float: right;
+    box-shadow: 5px 10px 8px 5px #afadad;
+            margin: 10px 25px 10px 5px;
+}
+
+.oasis {
+    color: #FF7A24;
+}
 
 .paren {
     font-size: 18px;
