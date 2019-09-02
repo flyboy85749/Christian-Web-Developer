@@ -33,12 +33,20 @@
 
 }
 
+.card-text {
+    padding: 20px;
+}
+
 .card-title {
     padding-left: 20px;
 }
 
 .card-body {
     padding: 0px;
+}
+
+.about {
+    margin-left: 20px;
 }
 
 .services {
