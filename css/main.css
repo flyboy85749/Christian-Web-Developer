@@ -1,9 +1,64 @@
+/* color scheme for site 
+#6C64B3 - purple - 
+#FF7A24 orange- links
+#B1A8FF - light blue
+#7BCC72 - light green
+#2CB31E - dark green - title*/
+
 #main {
     margin: 0 auto;
 }
 
+.nav-link {
+    color: #6C64B3;
+}
+
+.call {
+    color: #FFF;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+
+.text-white {
+    padding: 10px;
+}
+.faq  {
+    font-size: 38px;
+}
+
+.card {
+    background: #7BCC72;
+    padding-left: 50px;
+
+}
+
+.card-body {
+    padding: 0px;
+}
+
+
+.paren {
+    font-size: 18px;
+}
+
+.btn-primary {
+    background: #6C64B3;
+}
+
+.btn-primary:hover {
+    background: #B1A8FF;
+}
+
+img {
+    margin: 10px 5px 10px 0px;
+}
+
+
+
 .footer {
     color: white;
+
 }
 
 .img-fluid {
