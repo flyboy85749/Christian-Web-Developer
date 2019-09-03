@@ -6,142 +6,185 @@
 #2CB31E - dark green - title*/
 
 #main {
-    margin: 0 auto;
+  margin: 0 auto;
 }
 
 .nav-link {
-    color: #6C64B3;
+  color: #6c64b3;
 }
 
 .call {
-    color: #FFF;
-    font-size: 16px;
-    font-weight: bold;
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
 }
-
 
 .text-white {
-    padding: 10px;
+  padding: 10px;
 }
-.faq  {
-    font-size: 38px;
+
+.faq {
+  font-size: 38px;
 }
 
 .card {
-    background: #7BCC72;
-    padding-left: 50px;
-
+  background: #7bcc72;
+  padding-left: 50px;
 }
 
 .card-text {
-    padding: 20px;
+  padding: 20px;
 }
 
 .card-title {
-    padding-left: 20px;
+  padding-left: 20px;
 }
 
 .card-body {
-    padding: 0px;
+  padding: 0px;
+}
+
+.questions {
+    margin-right: 20px;
 }
 
 .about {
-    margin-left: 20px;
+  margin-left: 0px;
 }
 
 .services {
-    background: #B1A8FF;
-    padding: 20px;
+  background: #b1a8ff;
+  padding: 20px;
 }
 
-.photo {
-    float: right;
-    box-shadow: 5px 10px 8px 5px #afadad;
-            margin: 10px 25px 10px 5px;
+#photo {
+  float: right;
+  box-shadow: 5px 10px 8px 5px #afadad;
+  margin: 10px 25px 10px 5px;
 }
 
 .oasis {
-    color: #FF7A24;
+  color: #ff7a24;
 }
 
 .paren {
-    font-size: 18px;
+  font-size: 18px;
 }
 
 .btn-primary {
-    background: #6C64B3;
+  background: #6c64b3;
 }
 
 .btn-primary:hover {
-    background: #B1A8FF;
+  background: #b1a8ff;
 }
 
 img {
-    margin: 10px 5px 10px 0px;
+  margin: 10px 5px 10px 0px;
 }
 
-
-
 .footer {
-    color: white;
-
+  color: white;
 }
 
 .img-fluid {
-    box-shadow: 7px 7px 2px 1px rgba(17, 17, 17, 0.2);
-}
-.copyright {
-    position: relative;
-    top: -30px;
-    left: 400px;
+  box-shadow: 7px 7px 2px 1px rgba(17, 17, 17, 0.2);
 }
 
-input[type=text],
-        select {
-            width: 100%;
-            padding: 12px 20px;
-            margin: 8px 0;
-            display: block;
-            border: 1px solid #ccc;
-            border-radius: 4px;
-            box-sizing: border-box;
-        }
 
-        input[type=submit] {
-            width: 100%;
-            background-color: #4aaaa5;
-            color: white;
-            padding: 14px 20px;
-            margin: 8px 0;
-            border: none;
-            border-radius: 4px;
-            cursor: pointer;
-        }
+input[type='text'],
+select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
 
-        input[type=submit]:hover {
-            background-color: #B3A770;
-        }
+input[type='submit'] {
+  width: 100%;
+  background-color: #4aaaa5;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type='submit']:hover {
+  background-color: #b3a770;
+}
+
+@media only screen and (max-width: 993px) {
+  .container {
+    width: 100%;
+    text-align: center;
+  }
+
+  .row {
+    width: 100%;
+  }
+
+  p {
+    width: 100%;
+  }
+
+  .card {
+    padding: 0px;
+  }
+
+  .card-body {
+    padding: 0px;
+  }
+
+  .navbar-brand {
+    font-size: 80%;
+  }
+
+  .about-me {
+    width: 100%;
+  }
+
+  img {
+    width: 90%;
+  }
+}
+
+  @media only screen and (max-width: 768px) {
+     #photo {
+      float: left;
+      display: none;
+    } 
 
 
-        @media only screen and (max-width: 993px) {
-            .copyright {
-            display: none;
-            }
+    .card {
+      padding: 0px;
+    }
 
-            img {
-                width: 90%;
-            }
+    .card-body {
+      padding: 0px;
+    }
 
-            @media only screen and (max-width: 768px) {
-                .copyright {
-                display: none;
-                }
-                #photo {
-                    display: none;
-                }
-    
-                img {
-                    width: 80%;
-                }
-           
-            }
+    .about-me {
+      width: 200px;
+    }
+
+
+    .intro-p {
+        
+        width: 420px;
+    }
+
+    .questions, {
+        width: 100%;
+        font-size: 10px;
+    }
+
+    .answers {
+        font-size: 12px;
+    }
+  
+}
