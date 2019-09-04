@@ -49,18 +49,53 @@
 }
 
 .about {
-  margin-left: 0px;
+padding: 10px 10px 10px 10px;
 }
 
 .services {
-  background: #b1a8ff;
+  background: #3a3a3b;
   padding: 20px;
+}
+
+
+.service {
+  padding-left: 30px;
+}
+.service-1,
+.service-2,
+.service-3 {
+  color: #3a3a3b;
+  padding-left: 0px;
+}
+
+
+.card-services {
+  padding: 10px 10px 20px 20px;
+  background-color: #B1A8FF;
+}
+
+.friend {
+  color: #2CB31E;
+  margin-left: 60px;
 }
 
 #photo {
   float: right;
   box-shadow: 5px 10px 8px 5px #afadad;
   margin: 10px 25px 10px 5px;
+}
+
+.index {
+  padding: 10px 10px 10px 20px;
+  background-color: #B1A8FF;
+}
+
+.project {
+  padding-left: 30px;
+}
+
+.home-page {
+  padding: 10px 10px 10px 30px;
 }
 
 .oasis {
@@ -89,6 +124,16 @@ img {
 
 .img-fluid {
   box-shadow: 7px 7px 2px 1px rgba(17, 17, 17, 0.2);
+}
+
+tr {
+  height: auto;
+  
+}
+
+.answers {
+  color: red;
+  padding: 20px 10px 10px 20px;
 }
 
 
@@ -172,19 +217,24 @@ input[type='submit']:hover {
       width: 200px;
     }
 
+    
+
 
     .intro-p {
         
         width: 420px;
     }
 
-    .questions, {
-        width: 100%;
+    .questions {
+        width: 40%;
         font-size: 10px;
     }
 
     .answers {
-        font-size: 12px;
+      width: 60%;
+        font-size: 10px;
+        padding: 10px;
+        margin: 0px;
     }
   
 }

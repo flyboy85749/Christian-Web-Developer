@@ -25,36 +25,28 @@ const answers = ["Absolutely. If you have basic HTML and CSS knowledge, go for i
 questions.forEach(element => {
     // want to create a links for all of them
     // console.log(questions); 
-    $(".questions").html(`${questions.join("<br><hr><br>")}`)
+    $(".questions").html(`${questions.join("<br><hr>")}`)
     
 });
 
 answers.forEach(element => {
   // want to create a links for all of them
-  $(".answers").html(`${answers.join("<br><hr><br>")}`)
+  $(".answers").html(`${answers.join("<br><hr>")}`)
   
 });
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-/////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////
 ////////////                                    ////////////////
 ///////////             FUNCTIONS               ///////////////
 ///////////                                     //////////////
 //////////////////////////////////////////////////////////////
 
+$( ".questions" ).click(function() {
+  $( ".answers" ).toggle( "slow", function() {
+    // Animation complete.
+  });
+});
 
 
 
