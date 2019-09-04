@@ -4,7 +4,7 @@
 #B1A8FF - light blue
 #7BCC72 - light green
 #2CB31E - dark green - title*/
-
+/****************************************GLOBAL SELECTORS *****************************************************/
 #main {
   margin: 0 auto;
 }
@@ -13,19 +13,19 @@
   color: #6c64b3;
 }
 
-.call {
-  color: #fff;
-  font-size: 16px;
-  font-weight: bold;
+img {
+  margin: 10px 5px 10px 0px;
+}
+
+
+.img-fluid {
+  box-shadow: 7px 7px 2px 1px rgba(17, 17, 17, 0.2);
 }
 
 .text-white {
   padding: 10px;
 }
 
-.faq {
-  font-size: 38px;
-}
 
 .card {
   background: #7bcc72;
@@ -44,13 +44,67 @@
   padding: 0px;
 }
 
-.questions {
-    margin-right: 20px;
+.btn-primary {
+  background: #6c64b3;
+}
+
+.btn-primary:hover {
+  background: #b1a8ff;
+}
+
+.footer {
+  color: white;
+}
+
+/********************************************************************************************************/
+
+/* ******************************    PAGE SPECIFIC SELECTORS    ******************************************/
+
+/******************************************** index.html ********************************************/
+.index {
+  padding: 10px 10px 10px 20px;
+  background-color: #B1A8FF;
+}
+
+.project {
+  padding-left: 30px;
+}
+
+.home-page {
+  padding: 10px 10px 10px 30px;
+}
+/********************************************************************************************************/
+/******************************************** about.html ********************************************/
+#photo {
+  float: right;
+  box-shadow: 5px 10px 8px 5px #afadad;
+  margin: 10px 25px 10px 5px;
 }
 
 .about {
-padding: 10px 10px 10px 10px;
-}
+  padding: 10px 10px 10px 25px;
+  }
+
+  .call {
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+  }
+
+  .oasis {
+    color: #ff7a24;
+  }
+
+  .ab {
+    padding-left: 30px;
+  }
+
+  /*.about-me {
+} */
+
+/********************************************************************************************************/
+
+/******************************************** services.html ********************************************/
 
 .services {
   background: #3a3a3b;
@@ -74,56 +128,21 @@ padding: 10px 10px 10px 10px;
   background-color: #B1A8FF;
 }
 
-.friend {
-  color: #2CB31E;
-  margin-left: 60px;
+
+/********************************************************************************************************/
+/******************************************** faq.html ********************************************/
+
+.faq {
+  font-size: 38px;
 }
 
-#photo {
-  float: right;
-  box-shadow: 5px 10px 8px 5px #afadad;
-  margin: 10px 25px 10px 5px;
+.questions {
+  margin-right: 20px;
 }
 
-.index {
-  padding: 10px 10px 10px 20px;
-  background-color: #B1A8FF;
-}
-
-.project {
-  padding-left: 30px;
-}
-
-.home-page {
-  padding: 10px 10px 10px 30px;
-}
-
-.oasis {
-  color: #ff7a24;
-}
-
-.paren {
-  font-size: 18px;
-}
-
-.btn-primary {
-  background: #6c64b3;
-}
-
-.btn-primary:hover {
-  background: #b1a8ff;
-}
-
-img {
-  margin: 10px 5px 10px 0px;
-}
-
-.footer {
-  color: white;
-}
-
-.img-fluid {
-  box-shadow: 7px 7px 2px 1px rgba(17, 17, 17, 0.2);
+.answers {
+  color: #FF7A24;
+  padding: 20px 10px 10px 20px;
 }
 
 tr {
@@ -131,11 +150,9 @@ tr {
   
 }
 
-.answers {
-  color: red;
-  padding: 20px 10px 10px 20px;
-}
 
+/********************************************************************************************************/
+/******************************************** contact.html ********************************************/
 
 input[type='text'],
 select {
@@ -162,6 +179,10 @@ input[type='submit'] {
 input[type='submit']:hover {
   background-color: #b3a770;
 }
+
+/********************************************************************************************************/
+
+/************************************** @MEDIA QUERIES ************************************************/
 
 @media only screen and (max-width: 993px) {
   .container {
@@ -226,15 +247,18 @@ input[type='submit']:hover {
     }
 
     .questions {
-        width: 40%;
+      float: left;
+        width: 50%;
         font-size: 10px;
+        
     }
 
     .answers {
-      width: 60%;
-        font-size: 10px;
-        padding: 10px;
-        margin: 0px;
+      float: right;
+      clear: left;
+      width: 50%;
+      font-size: 10px;
+       
     }
   
 }
