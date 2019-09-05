@@ -61,7 +61,7 @@ $( ".questions" ).click(function() {
 ///////////                                     //////////////
 //////////////////////////////////////////////////////////////
 
-$(".navbar-brand").text("William H. Hall III - Christian Web Developer").css("color", "#2CB31E");
+$(".navbar-brand").text("William H. Hall III - Full Stack Web Developer").css("color", "#2CB31E");
 // $(".navbar-brand").css("color", "#2CB31E");
 $(".font-weight-light").addClass("business-name");
 $(".nav-link").css("color", "#FF7A24");
