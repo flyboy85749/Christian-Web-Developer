@@ -81,6 +81,8 @@ img {
   margin: 10px 25px 10px 5px;
 }
 
+
+
 .about {
   padding: 10px 10px 10px 25px;
   }
@@ -194,9 +196,9 @@ input[type='submit']:hover {
     width: 100%;
   }
 
-  p {
+  /* p {
     width: 100%;
-  }
+  } */
 
   .card {
     padding: 0px;
@@ -210,13 +212,16 @@ input[type='submit']:hover {
     font-size: 80%;
   }
 
-  .about-me {
-    width: 100%;
+  .ab {
+    
+    width: 500px;
   }
 
-  img {
-    width: 90%;
+  #photo {
+    display: none;
   }
+
+  
 }
 
   @media only screen and (max-width: 768px) {
@@ -237,13 +242,15 @@ input[type='submit']:hover {
     .about-me {
       width: 200px;
     }
-
     
+    .ab {
+        text-align: left;
+        width: 290px;
+    }
 
-
-    .intro-p {
-        
-        width: 420px;
+    .ab-btn {
+      width: 100px;
+      margin-left: 90px;
     }
 
     .questions {
