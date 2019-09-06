@@ -230,7 +230,13 @@ input[type='submit']:hover {
       display: none;
     } 
 
+    .faq {
+      font-size: 20px;
+    }
 
+    .gen {
+      font-size: 19px;
+    }
     .card {
       padding: 0px;
     }
@@ -253,19 +259,18 @@ input[type='submit']:hover {
       margin-left: 90px;
     }
 
-    .questions {
-      float: left;
-        width: 50%;
-        font-size: 10px;
-        
+    .first {
+      display: none;
     }
 
-    .answers {
-      float: right;
-      clear: left;
-      width: 50%;
+    td {
+      font-size: small;
+      border-bottom:  1px solid #3a3a3b;
+    }
+
+    .a {
       font-size: 10px;
-       
+      color: #FF7A24;
     }
   
 }
