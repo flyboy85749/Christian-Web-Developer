@@ -196,9 +196,9 @@ input[type='submit']:hover {
     width: 100%;
   }
 
-  /* p {
-    width: 100%;
-  } */
+  .about {
+    margin-left: 10px;
+  }
 
   .card {
     padding: 0px;
@@ -243,6 +243,15 @@ input[type='submit']:hover {
 
     .card-body {
       padding: 0px;
+    }
+
+    .about {
+      
+      margin-left: -15px;
+    }
+
+    .home-page {
+      margin-left: -25px;
     }
 
     .about-me {
