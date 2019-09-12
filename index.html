@@ -2,7 +2,16 @@
 <html lang="en">
 
 <head>
-  
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-147536494-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-147536494-1');
+</script>
+
   <title>Christian Web Developer - Home</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta name="title" content="Christian Web Developer">
@@ -31,11 +40,13 @@
   <!-- Navigation -->
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top navbar-collapse">
     <div class="container">
+        <img src="images/logo.png">
       <a class="navbar-brand" href="index.html"></a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
         aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
+      
       <div class="collapse navbar-collapse" id="navbarResponsive">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item active current">
@@ -97,7 +108,7 @@
         <div class="card h-100 index">
           <div class="card-body">
             <h2 class="card-title project">Current Project 1</h2>
-            <a href="https://flyboy85749.github.io/unit-4-game/"><img class="home-page" src="images/crystals_thumb.png"></a>
+            <a href="https://flyboy85749.github.io/unit-4-game/"><img class="home-page" src="images/crystals_thumb.png" alt="collect the crystals game screenshot"></a>
             <p class="card-text">This is a simple challenge game, created with javascript and jquery. The object is to click on the displayed crystals (each has a random value), and try to match the Random Number displayed at the top of the page.
             </p>
           </div>
@@ -111,9 +122,10 @@
         <div class="card h-100 index">
           <div class="card-body">
             <h2 class="card-title project">Current Project 2</h2>
-            <a href="https://flyboy85749.github.io/word-guess-game/"><img class="home-page" src="images/doggone.png"></a>
-            <p class="card-text">This is a word guess game, created with javascript and jquery. Try to guess the words that are based on dog breeds and/or sayings about dogs, like "dirty dog",
-              for example. See how many you can get right!
+            <a href="https://flyboy85749.github.io/Giphy"><img class="home-page" src="images/giphy.png" alt="Giphy API screenshot"></a>
+            <p class="card-text">This project pulls gifs from the Giphy API, and when you click on an existing button, or create your own, it displays
+			ten images in that category. Then, if you click on an image, it will animate. Built with javascript and jquery, with html, css, and a bootstrap
+			driven design.
             </p>
           </div>
           <!-- <div class="card-footer">
@@ -126,7 +138,7 @@
         <div class="card h-100 index">
           <div class="card-body">
             <h2 class="card-title project">Current Project 3</h2>
-            <a href="https://flyboy85749.github.io/practice/"><img class="home-page" src="images/mad_lib.png"></a>
+            <a href="https://flyboy85749.github.io/practice/"><img class="home-page" src="images/mad_lib.png" alt="mad lib game screenshot"></a>
             <p class="card-text">This is a mad lib, built with javscript, based on the life of Steve Jobs. It randomly replaces the bold words by pulling them from arrays of values.</p>
           </div>
           <!-- <div class="card-footer">

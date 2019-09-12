@@ -133,7 +133,9 @@ img {
 
 /********************************************************************************************************/
 /******************************************** faq.html ********************************************/
-
+.mobile {
+  display: none;
+}
 .faq {
   font-size: 38px;
 }
@@ -225,6 +227,10 @@ input[type='submit']:hover {
 }
 
   @media only screen and (max-width: 768px) {
+	  
+	  .mobile {
+		  display: block;
+	  }
      #photo {
       float: left;
       display: none;
@@ -242,7 +248,7 @@ input[type='submit']:hover {
     }
 
     .card-body {
-      padding: 0px;
+      paddingleft: 15px;
     }
 
     .about {
