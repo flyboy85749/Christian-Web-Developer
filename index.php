@@ -1,3 +1,4 @@
+<?php $pageTitle = 'Christian Web Developer | Home'; ?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -12,6 +13,7 @@
   gtag('config', 'UA-147536494-1');
 </script>
 
+  <title><?php echo $pageTitle; ?></title>
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta name="title" content="Christian Web Developer">
   <meta name="description"
@@ -24,8 +26,7 @@
   <meta name="robots" content="index, follow">
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
   <meta name="language" content="English">
-  <meta name="author" content="William H. Hall III">
- <title>Christian Web Developer - Services</title>
+  <meta name="author" content="William H. Hall III"> 
   <link rel="stylesheet" type="text/css" href="css/reset.css">
   <!-- Bootstrap core CSS -->
   <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -33,6 +34,7 @@
   <!-- Custom styles for this template -->
   <link href="css/small-business.css" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="css/main.css">
+  <meta name="google-site-verification" content="d2YPrvO7UWcFOaN-J7W9lAPgcjgBJRRfeAED9VHP0Gk" />
 </head>
 
 <body>
@@ -42,27 +44,29 @@
     <div class="container">
         <img src="images/logo.png">
       <a class="navbar-brand" href="index.html"></a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
+        aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
+      
       <div class="collapse navbar-collapse" id="navbarResponsive">
         <ul class="navbar-nav ml-auto">
+          <li class="nav-item active current">
+            <a class="nav-link current" href="index.html">Home
+              <span class="sr-only">(current)</span>
+            </a>
+          </li>
+          <li class="nav-item ">
+            <a class="nav-link" href="about.html">About</a>
+          </li>
           <li class="nav-item">
-            <a class="nav-link" href="index.html">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="about.html">About</a>
-            </li>
-            <li class="nav-item active">
-              <a class="nav-link current" href="services.html">Services
-                <span class="sr-only">(current)</span>
-              </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="faq.html">FAQ</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="contact.html">Contact</a>
+            <a class="nav-link" href="services.html">Services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="faq.html">FAQ</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact</a>
           </li>
         </ul>
       </div>
@@ -80,12 +84,13 @@
       </div>
       <!-- /.col-lg-8 -->
       <div class="col-lg-5">
-        <h1 class="font-weight-light">Services</h1>
-        <p>The services that I offer range from website design and development, database management, web technology education,
-          creating and building apps, search engine optimization (SEO), to consulting and more. <a href="contact.html">Contact me</a> with any and all questions you may have about anything web related, and I can either answer them for you or 
-          find someone who can. Or see our <a href="faq.html">frequently asked questions</a> page.
+        <h1 class="font-weight-light">Christian Web Developer</h1>
+        <p>
+          Welcome to the website of a Christian web designer and developer in Tucson, Arizona. Are you in need of a website or 
+          app for yourself or your church? Or maybe you have questions and need to talk to someone about how to go about 
+          building a site on your own? Either way, you've come to the right place.
         </p>
-        <a class="btn btn-primary" href="https://calendly.com/billhall168/60min">Schedule a FREE consultation!</a>
+        <a class="btn btn-primary" href="contact.html">Sign up for my newsletter!</a>
       </div>
       <!-- /.col-md-4 -->
     </div>
@@ -93,18 +98,21 @@
 
     <!-- Call to Action Well -->
     <div class="card text-white bg-secondary my-5 py-4 text-center">
-      <div class="card-body">
-        <p class="call">Are you a member of the <a class="oasis" href="https://theoasischurch.net">Oasis Church?</a> Check out my special pricing exclusively for members of the Oasis Church!</p>
+      <div class="card-body call">
+        <p class="call">Are you in charge of your Church's IT needs, but don't really know what you are doing?
+          Let me help for FREE!</p>
       </div>
     </div>
 
     <!-- Content Row -->
     <div class="row">
       <div class="col-md-4 mb-5">
-        <div class="card h-100 card-services">
+        <div class="card h-100 index">
           <div class="card-body">
-            <h2 class="card-title service">Website Design</h2>
-            <p class="card-text service-1">If you are in need of a website, <a href="contact.html">contact me</a> for more information or to get a quote. Remember that any church can receive a FREE website, and that members of the Oasis Church in Tucson will receive special reduced pricing, especially those of you in my homegroup!</p>
+            <h2 class="card-title project">Current Project 1</h2>
+            <a href="https://flyboy85749.github.io/unit-4-game/"><img class="home-page" src="images/crystals_thumb.png" alt="collect the crystals game screenshot"></a>
+            <p class="card-text">This is a simple challenge game, created with javascript and jquery. The object is to click on the displayed crystals (each has a random value), and try to match the Random Number displayed at the top of the page.
+            </p>
           </div>
           <!-- <div class="card-footer">
             <a href="#" class="btn btn-primary btn-sm">More Info</a>
@@ -113,10 +121,14 @@
       </div>
       <!-- /.col-md-4 -->
       <div class="col-md-4 mb-5">
-        <div class="card h-100 card-services">
+        <div class="card h-100 index">
           <div class="card-body">
-            <h2 class="card-title service">Website Reviews</h2>
-            <p class="card-text service-2">I will review your website for functionality, SEO, design, and page load speed. If your site needs improvement in any of these areas, I will provide you with a list of things I would change. If you have me do it, I will charge less than to build a site from scratch, since it will probably take less time and effort on my part. Be sure to clear this with any web developer with whom you are currently working.</p>
+            <h2 class="card-title project">Current Project 2</h2>
+            <a href="https://flyboy85749.github.io/Giphy"><img class="home-page" src="images/giphy.png" alt="Giphy API screenshot"></a>
+            <p class="card-text">This project pulls gifs from the Giphy API, and when you click on an existing button, or create your own, it displays
+			ten images in that category. Then, if you click on an image, it will animate. Built with javascript and jquery, with html, css, and a bootstrap
+			driven design.
+            </p>
           </div>
           <!-- <div class="card-footer">
             <a href="#" class="btn btn-primary btn-sm">More Info</a>
@@ -125,10 +137,11 @@
       </div>
       <!-- /.col-md-4 -->
       <div class="col-md-4 mb-5">
-        <div class="card h-100 card-services">
+        <div class="card h-100 index">
           <div class="card-body">
-            <h2 class="card-title service">Web Development</h2>
-            <p class="card-text service-3">I love adding functionality to websites, be it a shopping cart or banner ad tracking systems. If you have a site that is already up and running, but would now like to sell things from it, let's get together and talk about the possibility of adding that functionality to your existing site.</p>
+            <h2 class="card-title project">Current Project 3</h2>
+            <a href="https://flyboy85749.github.io/practice/"><img class="home-page" src="images/mad_lib.png" alt="mad lib game screenshot"></a>
+            <p class="card-text">This is a mad lib, built with javscript, based on the life of Steve Jobs. It randomly replaces the bold words by pulling them from arrays of values.</p>
           </div>
           <!-- <div class="card-footer">
             <a href="#" class="btn btn-primary btn-sm">More Info</a>
